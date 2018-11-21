@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <!-- Title -->
-<title>Soup - Restaurant with Online Ordering System Template</title>
+<title>La Pizzeria</title>
 
 <!-- Favicons -->
 <link rel="shortcut icon" href="assets/img/favicon.png">
@@ -22,10 +22,6 @@
 <link rel="stylesheet" href="assets/plugins/slick-carousel/slick/slick.css" />
 <link rel="stylesheet" href="assets/plugins/animate.css/animate.min.css" />
 <link rel="stylesheet" href="assets/plugins/animsition/dist/css/animsition.min.css" />
-
-<!-- CSS Icons -->
-<link rel="stylesheet" href="assets/css/themify-icons.css" />
-<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css" />
 
 <!-- CSS Theme -->
 <link id="theme" rel="stylesheet" href="assets/css/themes/theme-beige.min.css" />
@@ -44,8 +40,8 @@
     <header id="header" class="light">
 
         <div class="container">
-            <div class="row" id="menu-principal">
-                <div class="col-md-8 push-md-2 text-center">
+            <div class="row" >
+                <div class="col-md-6 push-md-2 text-center" id="menu-principal">
                     <!-- Navigation -->
                     <nav class="module module-navigation mr-4">
                         <ul id="nav-main" class="nav nav-main">
@@ -53,13 +49,15 @@
                                 <a href="#">HOME</a>
                             </li>
                             <li >
-                                <a href="#ruben">NOSOTROS</a>
+                                <a href="#nosotros">NOSOTROS</a>
                             </li>
                             <li>
-                                <a href="#">MENU</a>
+                                <a href="#menu">MENU</a>
                             </li>
                             <li><a href="page-offers.html">SUCURSALES</a></li>
                             <li><a href="page-contact.html">CONTACTO</a></li>
+                            <li><div id="insta-icon"><img src="assets/img/photos/Recurso4.png"></div></li>
+                            <li><div id="fb-icon"><img src="assets/img/photos/Recurso5.png"></div></li>
                         </ul>
                     </nav>
                 </div>
@@ -73,12 +71,12 @@
     <header id="header-mobile" class="light">
 
         <div class="module module-nav-toggle">
-            <a href="#" id="nav-toggle" data-toggle="panel-mobile"><span></span><span></span><span></span><span></span></a>
+            <a href="#" id="nav-toggle" data-toggle="panel-mobile"><span>----</span><span></span><span></span><span></span></a>
         </div>    
 
         <div class="module module-logo">
             <a href="index.html">
-                <img src="assets/img/logo-horizontal-dark.svg" alt="">
+             <!--   <img src="assets/img/logo-horizontal-dark.svg" alt=""> -->
             </a>
         </div>
 
@@ -94,9 +92,9 @@
         <div class="bg-image zooming"></div>
 
         <div class="container text-center" data-local-scroll>
-            <img src="assets/img/logo-light.svg" alt="" width="111" class="mb-5">
-            <h4 class="mb-5">Restaurant with Online Ordering System Template</h4>
-            <a href="#concepts" class="btn btn-outline-primary btn-lg"><span>Pick a concept</span></a>
+            <img src="assets/img/photos/Recurso8.png" alt="" width="111" class="mb-5"> 
+            <h4 class="mb-5">La Pizzeria Nuvo Menu</h4>
+           <!-- <a href="#concepts" class="btn btn-outline-primary btn-lg"><span>Pick a concept</span></a> -->
         </div>
     
 </div>
@@ -111,8 +109,38 @@
         <!-- Section -->
         <section id="concepts" class="section bg-light">
             
-            <div class="container" id="ruben">
-                <h4 class="mb-5 text-center">Pick a concept</h4>
+            <div class="container" id="nosotros">
+                <!-- <h4 class="mb-5 text-center">Pick a concept</h4> -->
+                <div class="row">
+                    <div class="col-sm-4">
+                        <!-- Image Box -->
+                        <div class="image-box">
+                            <div class="image" style="padding:43px">
+                                <a href="index-burgers.html" target="_blank"><img src="assets/img/photos/Recurso11.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <!-- Image Box -->
+                    <div style="margin-top:100px">
+                        <div style="font-size:22px">Bienvenidos a La Pizzeria, te invitamos a disfrutar todas las
+                            combinaciones de sabores que puedes encontrar en nuestras
+                            pizzas artesanales de autor.
+                        </div>
+                    </div>
+                    <div style="margin-top:40px">
+                        <div style="font-size:22px">En nuestro menú encontrarás las últimas tendencias de cocina 
+                            internacional, no pierdas la oportunidad de probar todas nuestras
+                            pizzas con las diferentes variedades de salsas y toppings, estamos 
+                            seguros que experimentaras un boom en tu paladar.
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="menu">
+                <h4 class="mb-5 text-center">MENU</h4>
                 <div class="row">
                     <div class="col-sm-6">
                         <!-- Image Box -->
@@ -266,7 +294,7 @@
         <div class="panel-cart-container">
             <div class="panel-cart-title">
                 <h5 class="title">Your Cart</h5>
-                <button class="close" data-toggle="panel-cart"><i class="ti ti-close"></i></button>
+                <button class="close" data-toggle="panel-cart">X<i class="ti ti-close">X</i></button>
             </div>
             <div class="panel-cart-content">
                 <table class="table-cart">
@@ -337,7 +365,7 @@
             <a href="#">
                 <img src="assets/img/logo-light.svg" alt="" width="88">
             </a>
-            <button class="close" data-toggle="panel-mobile"><i class="ti ti-close"></i></button>
+            <button class="close" data-toggle="panel-mobile">X<i class="ti ti-close"></i></button>
         </div>
         <nav class="module module-navigation"></nav>
         <div class="module module-social">

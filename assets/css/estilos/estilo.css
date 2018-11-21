@@ -1,8 +1,22 @@
 #menu-principal {
     background: #85CEC0;
     color: white;
+    margin-top: -20px;
+    margin-left: 100px;
 }
 
 #bloque-principal {
-    background-image: url("../../img/photos/bg-croissant.jpg");
+    background: #000;
+}
+
+#insta-icon {
+    width: 45px;
+}
+
+#fb-icon {
+    width: 45px;
+}
+
+#nosotros {
+    padding: 40px;
 }
