@@ -6,7 +6,12 @@
 }
 
 #bloque-principal {
+    min-height: 700px;
     background: #000;
+    background-image: url("../../img/photos/fondo1.jpg");
+    background-size: cover;
+    background-position: center;
+    border:10px solid #85CEC0;
 }
 
 #insta-icon {
@@ -19,4 +24,8 @@
 
 #nosotros {
     padding: 40px;
+}
+
+.section-lg {
+    
 }
