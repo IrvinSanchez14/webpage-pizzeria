@@ -1,3 +1,16 @@
+@font-face {
+    font-family: nexa;
+    src: url("../../fonts/Nexa\ Bold_0.otf") format("opentype");
+}
+@font-face {
+    font-family: nexaBlack;
+    src: url("../../fonts/NexaRustSans-Black_0.otf") format("opentype");
+}
+
+body {
+    font-family: nexa;
+}
+
 #menu-principal {
     background: #85CEC0;
     color: white;
@@ -8,7 +21,7 @@
 #bloque-principal {
     min-height: 700px;
     background: #000;
-    background-image: url("../../img/photos/fondo1.jpg");
+    background-image: url("../../img/photos/fondo2.jpg");
     background-size: cover;
     background-position: center;
     border:10px solid #85CEC0;
@@ -29,3 +42,43 @@
 .section-lg {
     
 }
+
+.imgMenu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: 10px;
+}
+
+.centered {
+    color: #fff;
+    font-size: 4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+  }
+
+  .sucursales {
+      font-size: 50px;
+      font-family: nexaBlack;
+  }
+
+  #sucursales{
+      color: #85CEC0;
+    border:5px solid #e8cea1;
+    display: inline-block;
+    margin: 50px 0;
+    width: 100%;
+  }
+  
+  .menuH {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+  }
+
+  
